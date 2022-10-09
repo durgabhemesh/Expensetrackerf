@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #72B2DA; */
+    /* background-color: #FFAEBC; */
+    background-color: black;
+    color: #fff;
+    animation: bgi 2s ease;
+    font-weight: 200;
+    font-family: 'Tangerine', serif;;
+    
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    background-color: #2b323c;
+    margin: 19px 9px;
+    color: #fff;
+  
+}
+@keyframes bg{
+    0%{
+        width: 10%;
+    }
+    50%{
+        width: 10%;
+    }
+    100%{
+        width: 100%
+    }
+}
+
+
+.cont1{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    
+}
+.date{
+    padding-left: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+    width: 30%;
+    
+}
+.price{
+    
+    
+    
+    margin:  10px;
+    /* border: 1px solid grey; */
+    border-radius: 19px;
+    color: white;
+    
+}
+
+
+.name{
+    width: 40%;
+    color: white;
+    
+    
+    width: 50%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    border-radius: 8px;
+    background-color: #23323c;
+    padding: 8px;
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+    color: #f4f5f6;
+}
+
+button:hover{
+    background-color: tomato;
+}
